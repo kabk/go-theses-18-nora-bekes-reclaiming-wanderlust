@@ -1,8 +1,54 @@
 <!DOCTYPE html>
 <head>
+	<title>Reclaiming Wanderlust</title>
+	    <link rel="stylesheet" href="style.css">
+	    <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet">
+	        <script type="text/javascript" src="dist/paper-full.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+
+    var path;
+
+// Only execute onMouseDrag when the mouse
+// has moved at least 10 points:
+tool.minDistance = 5;
+
+tool.onMouseDown = function(event) {
+    // Create a new path every time the mouse is clicked
+    path = new Path();
+    path.add(event.point);
+    path.strokeColor = 'black';
+    path.strokeWidth = 3;
+}
+
+tool.onMouseDrag = function(event) {
+    // Add a point to the path every time the mouse is dragged
+    path.add(event.point);
+}
+
+    </script>
+
 </head>
 <body>
-<h1>hello world</h1>
+<canvas id="canvas"></canvas>
+	<div class="vl" id="front"></div>
+	<div class="vl" id="back"></div>
+	<div class="vl" id="back_2"></div>
+	<div class="title">
+<h1>Reclaiming Wanderlust</h1> </title>
+<div class="text">
+<p>I am researching the visual strategies in medieval manuscripts used for communicating the content.
+
+I would like to find out about the methods that were used for creating narratives and conveying the message in these books. I would like to see  how codices communicate to different kinds of audiences, and which forms are used for different kinds of subjects.
+ 
+According to my observation, medieval imagery is highly engaging and contains an abundance of narratives. Manuscript books are special, because here text and image meet, and create a new object, a system - a book. I think the understanding of these visuals and the concepts behind them can benefit the contemporary graphic designers.
+
+For my research I am look at manuscript books, and analyse them visually, considering also the context and codicological information. For understanding the meaning and context of the images, I read books and studies on the broader theoretical context and on medieval visual culture. 
+
+Some of the main results of the research show that the visuals used and the purpose of the document were closely connected, the functionality played a key part in the design. The interplay of content, text and image reflects an interconnected, interdisciplinary conception of the world.  Most stunningly, medieval books testify for very layered story-telling, where several narratives and functions come together in the hand-written book-object.  </p>
+</div>
+
+
 </body>
 
 </html>
