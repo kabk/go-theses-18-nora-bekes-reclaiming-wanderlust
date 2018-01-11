@@ -1,45 +1,102 @@
 @page {
 		size:A4 portrait;
-		margin:0.5cm;
+		margin:0.75cm;
 	}
 
 h1{
-	font-family: courier;
-	font-size: 10pt;
+	font-size: 11pt;
+	font-family: 'courier_primebold';
 }
+
 h2 {
-	  font-size: 10pt;
-	  background-color: black
+	  font-size: 11pt;
+	  background-color: black;
+	  color: white;
+	  font-family: 'courier_primebold';
 	}
 
+li{font-size: 11pt;
+}
+
 p{
-	font-size: 10pt;
+	font-size: 11pt;
 	line-height: 16pt;
 }
 
-a{
+/*a{
 	text-decoration: none;
+	display: block;
+}*/
+
+.footnotes{
+	display: block;
+	page-break-inside: avoid;
+	font-size: 9pt;
 }
 
+/*img{
+	display:block;
+	page-break-inside: avoid;
+}
+*/
 .row_1_2_1_newchapter{
 	page-break-before: always;
 
 }
 
-.icons_intext{
+.placeholder{
 	page-break-before: always;
-	page-break-after: always;
+	display: block;
 
-}
-
-img{
-	display:block;
 }
 
 .footnotes{
 	display: block;
+	page-break-inside: avoid;
+}
+
+.imgtext{
+	page-break-inside: avoid;
 }
 
 #homepageicons{
 	display: none !important;
+}
+
+#contents{
+	margin: 2cm;
+	border: none;
+	width: 40vw;
+	left: 2cm;
+	top:2cm;
+	page-break-after: always;
+}
+
+#title{
+	margin: 2cm;
+	border:none;
+	width: 8cm;
+	left: 2cm;
+	top: 2cm;
+}
+
+#abstracttitle{
+	display: none;
+}
+
+#colophontitle{
+	display: none;
+}
+
+#abstract{
+	display: none !important;
+}
+
+#colophon{
+	display:block; 
+	border: none;
+}
+
+.icons_intext{
+	display: none;
 }

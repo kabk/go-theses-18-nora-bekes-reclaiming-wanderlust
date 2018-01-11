@@ -5,6 +5,42 @@ html,body{
 	width: 100%
 }
 
+@font-face {
+    font-family: 'courier_primebold_italic';
+    src: url('fonts/courier_prime_bold_italic-webfont.woff2') format('woff2'),
+         url('fonts/courier_prime_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'courier_primebold';
+    src: url('fonts/courier_prime_bold-webfont.woff2') format('woff2'),
+         url('fonts/courier_prime_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'courier_primeitalic';
+    src: url('fonts/courier_prime_italic-webfont.woff2') format('woff2'),
+         url('fonts/courier_prime_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'courier_primeregular';
+    src: url('fonts/courier_prime-webfont.woff2') format('woff2'),
+         url('fonts/courier_prime-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #homepage{
 /*	background: red;
 */	width: 100vw;
@@ -27,6 +63,8 @@ html,body{
 */
 }
 
+svg{display: block;}
+
 .icons_intext{
 	/*background-color: blue;*/
 	width: 45vw;
@@ -43,72 +81,144 @@ html,body{
 .icons:hover{
 	fill:black;
 }
+
 #icon_1{
 	left:25vw;
 	top:0vh;
+}
+
+#icon_1_intext{
+	left:25vw;
 }
 
 #icon_2{
 	left:35vw;
 	top: 0vh;
 }
+
+#icon_2_intext{
+	left:35vw;
+}
+
 #icon_3{
 	left:45vw;
 	top:0vh;
 }
+
+#icon_3_intext{
+	left:45vw;
+}
+
+#icon_4_intext{
+	left:55vw;
+}
+
 #icon_4{
 	left:55vw;
 	top:0vh;
 }
+
+#icon_5_intext{
+	left:25vw;
+}
+
 #icon_5{
 	left:25vw;
 	top:10vh;
 }
+
 #icon_6{
 	left:35vw;
 	top:10vh;
+}
+
+#icon_6_intext{
+	left:35vw;
 }
 
 #icon_7{
 	left:45vw;
 	top:10vh;
 }
+
+#icon_7_intext{
+	left:45vw;
+}
+
 #icon_8{
 	left:55vw;
 	top:10vh;
 }
+
+#icon_8_intext{
+	left:55vw;
+}
+
 #icon_9{
 	left:25vw;
 	top:20vh;
 }
+
+#icon_9_intext{
+	left:25vw;
+}
+
 #icon_10{
 	left:35vw;
 	top:20vh;
 }
+
+#icon_10_intext{
+	left:35vw;
+}
+
 #icon_11{
 	left:45vw;
-	top:20vh;
 }
+
+#icon_11_intext{
+	left:45vw;
+}
+
 #icon_12{
 	left:55vw;
-	top:20vh;
 }
+
+#icon_12_intext{
+	left:55vw;
+}
+
 #icon_13{
 	left:25vw;
 	top:30vh;
 }
+
+#icon_13_intext{
+	left:25vw;
+}
+
 #icon_14{
 	left:35vw;
-	top:30vh;
 }
+
+#icon_14_intext{
+	left:35vw;
+}
+
 #icon_15{
 	left:45vw;
-	top:30vh;
+}
+
+#icon_15_intext{
+	left:45vw;
 }
 
 #icon_16{
 	left:55vw;
-	top:30vh;
+}
+
+#icon_16_intext{
+	left:55vw;
 }
 
 
@@ -131,7 +241,7 @@ html,body{
 	border: 0.15vw black;
 	border-style: solid;
 	width: 22vw;
-	height: 87vh;
+	height: 90vh;
 	margin: 1vw;
 	z-index: -1;
 	opacity: 1;
@@ -139,8 +249,8 @@ html,body{
 }
 
   #contents::-webkit-scrollbar{
-    width: 2vw}
-   #contents::-webkit-scrollbar:horizontal{
+    width: 0px}
+/*   #contents::-webkit-scrollbar:horizontal{
     height: 0}
   
   #contents::-webkit-scrollbar-track{
@@ -152,7 +262,7 @@ html,body{
     background: black;
     border-left: 0.9vw solid white;
     border-right: 0.85vw solid white;}
-
+*/
 
 #abstract{
 	background-color: white;
@@ -172,8 +282,8 @@ html,body{
 }
 
   #abstract::-webkit-scrollbar{
-    width: 2vw}
-   #abstract::-webkit-scrollbar:horizontal{
+    width: 0px}
+/*   #abstract::-webkit-scrollbar:horizontal{
     height: 0}
   
   #abstract::-webkit-scrollbar-track{
@@ -184,7 +294,7 @@ html,body{
   #abstract::-webkit-scrollbar-thumb{
     background: black;
     border-left: 0.9vw solid white;
-    border-right: 0.85vw solid white;}
+    border-right: 0.85vw solid white;}*/
 
 
 
@@ -219,8 +329,8 @@ background-color: white;
 }
 
   #colophon::-webkit-scrollbar{
-    width: 2vw}
-   #colophon::-webkit-scrollbar:horizontal{
+    width: 0px}
+/*   #colophon::-webkit-scrollbar:horizontal{
     height: 0}
   
   #colophon::-webkit-scrollbar-track{
@@ -231,7 +341,7 @@ background-color: white;
   #colophon::-webkit-scrollbar-thumb{
     background: black;
     border-left: 0.9vw solid white;
-    border-right: 0.85vw solid white;}
+    border-right: 0.85vw solid white;}*/
 
 
 ul{
@@ -239,7 +349,7 @@ ul{
 }
 
 li{
-	font-family: courier;
+	font-family: 'courier_primeregular', courier;
 	font-size: 1.2vw;
 	margin: 0;
 /*	padding-left: 2vw;
@@ -250,7 +360,7 @@ li{
 
 
 h1{
-	font-family: courier;
+	font-family: 'courier_primeregular',courier;
 	font-size: 1.2vw;
 	font-style: bold;
 	padding-left: 2vw;
@@ -318,7 +428,7 @@ grid-template-columns:12fr;
 }
 
 p{
-	font-family: courier;
+	font-family:'courier_primeregular', courier;
 	font-size: 1.2vw;
 	margin: 0;
 	padding-left: 2vw;
@@ -328,10 +438,8 @@ p{
 }
 
 h2{
-	font-family: courier;
-	font-style: regular;
-/*	font-style: bold;
-*/	font-size: 1.2vw;
+	font-family: 'courier_primeregular', courier;
+	font-size: 1.2vw;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	margin-top: 2vw;
@@ -353,6 +461,7 @@ a:visited{
 	color: white;
 }
 
+
 sup{font-size: 0.9vw;
 line-height: 0.9vw;
 }
@@ -364,7 +473,7 @@ font-style: italic;
 
 
 .footnote{
-	font-family: courier;
+	font-family: 'courier_primeregular', courier;
 	font-size:1vw;
 	border: black 0.15vw;
 	border-style: solid;
@@ -373,7 +482,7 @@ font-style: italic;
 }
 
 .imgnote{
-	font-family: courier;
+	font-family: 'courier_primeregular', courier;
 	font-size:1vw;
 	border: black 0.15vw;
 	border-style: dashed;
@@ -383,7 +492,7 @@ font-style: italic;
 }
 
 p.biblio{
-	font-family: courier;
+	font-family: 'courier_primeregular', courier;
 	font-size:1vw;
 /*	padding: 1vw;
 	margin:2vw;*/
@@ -416,18 +525,3 @@ img{
 	max-width: 96vw;
 }
 
-
-
-/*@media print{
-	@page {
-		size:A4 portrait;
-		margin:0.5cm;
-	}
-
-
-	h2 {
-	  page-break-before: always;
-	}
-
-
-}*/
