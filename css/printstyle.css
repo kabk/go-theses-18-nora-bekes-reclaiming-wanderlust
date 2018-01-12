@@ -5,17 +5,18 @@
 
 h1{
 	font-size: 11pt;
-	font-family: 'courier_primebold';
-}
+/*	font-family: 'courier_primebold';
+*/}
 
 h2 {
 	  font-size: 11pt;
 	  background-color: black;
 	  color: white;
-	  font-family: 'courier_primebold';
-	}
+/*	  font-family: 'courier_primebold';
+*/	}
 
 li{font-size: 11pt;
+	line-height: 16pt;
 }
 
 p{
@@ -23,10 +24,11 @@ p{
 	line-height: 16pt;
 }
 
-/*a{
-	text-decoration: none;
-	display: block;
-}*/
+ul{
+	font-size: 11pt;
+	line-height: 16pt;
+
+}
 
 .footnotes{
 	display: block;
@@ -34,12 +36,9 @@ p{
 	font-size: 9pt;
 }
 
-/*img{
-	display:block;
-	page-break-inside: avoid;
-}
-*/
-.row_1_2_1_newchapter{
+
+
+.row_1_2_1_newchapter, .row_4{
 	page-break-before: always;
 
 }
@@ -64,19 +63,19 @@ p{
 }
 
 #contents{
-	margin: 2cm;
+	margin-left: 10cm;
 	border: none;
 	width: 40vw;
-	left: 2cm;
+	left: 11cm;
 	top:2cm;
 	page-break-after: always;
 }
 
 #title{
-	margin: 2cm;
+	margin-left: 10cm;
 	border:none;
 	width: 8cm;
-	left: 2cm;
+	left: 11cm;
 	top: 2cm;
 }
 
@@ -88,6 +87,10 @@ p{
 	display: none;
 }
 
+#printbutton{
+	display: none;
+}
+
 #abstract{
 	display: none !important;
 }
@@ -95,8 +98,53 @@ p{
 #colophon{
 	display:block; 
 	border: none;
+	page-break-before: always;
+	font-size: 9pt;
+	left:1cm;
+	top:19cm;
+	width: 10cm;
+	height: 15cm;
+	overflow: none;
+}
+
+.colophonp{
+	font-size: 9pt;
+
 }
 
 .icons_intext{
 	display: none;
+}
+
+img{
+/*	display:block;
+*/	border: none;
+	margin:none;
+/*	page-break-inside: avoid;
+*/}
+
+#paradise{
+	max-width: 50vw;
+	max-height: 50vw;
+}
+
+#mappamundi, #org_2, #flowers_1, #flowers_2 {
+	max-width: 85vw;
+}
+
+#tree, #library, #salamander, #syllog_1, #guido, #helpinghand1, #helpinghand2, #helpinghand3, #helpinghand4, #helpinghand5, #helpinghand6, #org_1, #org_3, #org_4, #discursive_5, #arspoetica_2, #arspoetica_3, #arspoetica_4, #shameless_1, #shameless_2, #shameless_3, #shameless_4{
+	max-width: 25vw;
+}
+
+#army1, #army2, #syllog_2, #jonas, #rota, #discursive_1, #discursive_2, #discursive_4, #arspoetica_1{
+	max-width: 55vw;
+}
+
+#paris_1, #paris_2, #paris_3, #paris_4, #paris_5, #paris_6{
+	max-width: 55vw;
+}
+
+#zodiacman, #discursive_3 {
+	max-width: 110vw;
+
 }
