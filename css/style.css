@@ -439,6 +439,9 @@ p{
 	line-height: 1.7vw;
 }
 
+.span_it{
+	font-family: 'courier_primeitalic',courier;
+}
 h2{
 	/*font-family: 'courier_primebold', courier;*/
 	font-family: courier;
@@ -526,7 +529,7 @@ img{
 #mappamundi,#org_2, #flowers_1, #flowers_2 {
 	max-width: 71vw;
 }
-#tree,#library, #salamander, #syllog_1, #guido, #helpinghand1, #helpinghand2, #helpinghand3, #helpinghand4, #helpinghand5, #helpinghand6, #org_1, #org_3, #org_4, #discursive_5, #arspoetica_2, #arspoetica_3, #arspoetica_4, #shameless_1, #shameless_2, #shameless_3, #shameless_4{
+#tree,#library, #salamander, #dragon, #syllog_1, #guido, #helpinghand1, #helpinghand2, #helpinghand3, #helpinghand4, #helpinghand5, #helpinghand6, #org_1, #org_3, #org_4, #discursive_5, #arspoetica_2, #arspoetica_3, #arspoetica_4, #shameless_1, #shameless_2, #shameless_3, #shameless_4{
 	max-width: 21vw;
 }
 
@@ -540,4 +543,107 @@ img{
 #zodiacman,#discursive_3 {
 	max-width: 96vw;
 }
+
+@media screen and (max-width:1024px)  {
+
+#bodytext{
+	display: absolute;
+	width: 100vw;
+}
+
+.row_1_1_1_1{
+display: relative;
+width: 100vw;
+}
+
+.row_1_2_1{
+display: relative;
+width: 100vw;
+}
+
+.row_1_2_1_newchapter{
+display: relative;
+width: 100vw;
+}
+
+.row_2_1_1{
+display: relative;
+width: 100vw;
+}
+
+.row_1_1_2{
+display: relative;
+width: 100vw;
+}
+
+.row_1_3{
+display: relative;
+width: 100vw;
+}
+.row_3_1{
+display: relative;
+width: 100vw;
+}
+
+.row_2_2{
+display: relative;
+width: 100vw;
+
+}
+
+.row_4{
+display: relative;
+width: 100vw;
+
+}
+.placeholder{
+	display: relative;
+	width: 100vw;
+	height: 40vh}
+
+#argument{
+
+	width: 96vw;
+}
+
+.icons{
+	display: none;
+}
+
+#title{
+	width: 46vw;
+	height: 5vh;
+}
+#contents{
+	width: 46vw;
+	height: 89vh;
+}
+h1{
+	font-size: 2.4vw;
+}
+
+li{
+	font-size: 2.2vw;
+	line-height: 3.3vw;
+	margin-right: 1vw;
+}
+.index, .colophonp{
+	font-size: 2.2vw;
+	line-height: 3.3vw;
+}
+
+#abstract{
+	left: 50vw;
+	width: 46vw;
+
+}
+
+#colophon{
+	left: 50vw;
+	width: 46vw;
+
+}
+
+
+	}
 
